@@ -171,6 +171,29 @@ section {
   padding: 1rem 0;
 }
 
+.home .share {
+  position: absolute;
+  left: 60%;
+  bottom: 5rem;
+  transform: translateX(-50%);
+  display: flex;
+
+  border-radius: 1rem;
+  background: #444;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.home .share a {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  margin-right: 3rem;
+  color: var(--yellow);
+  box-shadow: 0 1rem 2rem #333;
+}
+
 /* about section */
 
 .heading {
