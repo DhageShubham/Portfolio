@@ -314,6 +314,62 @@ section {
   transform: scale(1.2);
 }
 
+/* contact me */
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #333;
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.contact .row form .message {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .content .title {
+  color: #fff;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #eee;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contact .row .content .info h3 i {
+  padding-right: 1rem;
+  color: var(--yellow);
+}
+
+/* media queries */
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -365,5 +421,9 @@ section {
 
   .portfolio .box-container .box {
     width: 100%;
+  }
+
+  .contact .row form {
+    margin: 3rem 0;
   }
 }
