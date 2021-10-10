@@ -22,3 +22,9 @@ $(document).ready(function () {
     );
   });
 });
+
+var type = new Typed(".typing-text", {
+  strings: ["Shubham Dhage", "a full stack developer", "a learner"],
+  typeSpeed: 120,
+  loop: true,
+});
