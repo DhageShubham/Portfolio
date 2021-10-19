@@ -28,3 +28,22 @@ var type = new Typed(".typing-text", {
   typeSpeed: 120,
   loop: true,
 });
+
+var index = 1;
+document.querySelector(".awards").onclick = () => {
+  document.querySelector(".popup-image").style.display = "block";
+};
+
+document.querySelector(".popup-image span").onclick = () => {
+  document.querySelector(".popup-image").style.display = "none";
+};
+
+document.querySelector(".prev").onclick = () => {
+  if (--index == 0) index = 5;
+  document.querySelector(".popup-image img").src = "Images/" + index + ".png";
+};
+
+document.querySelector(".next").onclick = () => {
+  if (++index == 6) index = 1;
+  document.querySelector(".popup-image img").src = "Images/" + index + ".png";
+};
