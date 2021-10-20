@@ -40,10 +40,10 @@ document.querySelector(".popup-image span").onclick = () => {
 
 document.querySelector(".prev").onclick = () => {
   if (--index == 0) index = 5;
-  document.querySelector(".popup-image img").src = "Images/" + index + ".png";
+  document.querySelector(".popup-image img").src = "Images/" + index + ".PNG";
 };
 
 document.querySelector(".next").onclick = () => {
   if (++index == 6) index = 1;
-  document.querySelector(".popup-image img").src = "Images/" + index + ".png";
+  document.querySelector(".popup-image img").src = "Images/" + index + ".PNG";
 };
